@@ -4,7 +4,7 @@ show databases;
 create table Students(
 student_ID int primary key ,
 student_name varchar(50),
-student_age varchar(40),
+student_age int(40),
 grade varchar(30)
 );
 
